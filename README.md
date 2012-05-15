@@ -92,7 +92,7 @@ Notation
 In my adventures I've noticed that Scala annotations do not have an infix notation, unlike method calls (`obj1 meth obj2`) and type constructors (`[String X Int]`). This strikes me as an inconsistency that I'd love to discuss with someone. I believe that an infix notation for unary annotations may be helpful in improving metadata readability.
 
 ```scala
-@describe "a short, public message from a user
+@describe "a short, public message from a user"
 @example[examples.Tweet]
 case class Tweet(
 
